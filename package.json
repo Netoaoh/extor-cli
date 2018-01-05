@@ -1,0 +1,21 @@
+{
+  "name": "extor-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "commands.js",
+  "preferGlobal": true,
+  "bin": "./src/commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "inquirer": "^4.0.2",
+    "shelljs": "^0.7.8",
+    "sqlite-sync": "^0.3.6",
+    "sqlite3": "^3.1.13"
+  }
+}
